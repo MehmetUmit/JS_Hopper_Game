@@ -1,0 +1,57 @@
+html {
+    background-color:gray;
+    
+}
+#canvas {
+border:1px solid black;
+background-color:slategrey;
+}
+#count {
+    position:absolute;
+    top:8px;
+    height:100px;
+    width:100px;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    font-size:50px;
+    font-family:"digital";
+    color:#00ff00;
+}
+#gameBox{
+    position:absolute;
+    text-align:center;
+    color:#00ff00;
+    display:none;
+    background-color:rgba(0,0,0,0.5);
+    height:500px;
+    width:200px;
+    left:290px;
+    border:2px solid black;
+}
+h1{
+    font-family:arial;
+    font-size:40px;
+}
+.info{
+    margin-top:60px;
+    font-size:30px;
+    color:white;
+    opacity:0.6;
+    font-family:arial;
+}
+.highScore{
+    margin-top:60px;
+    font-size:30px;
+    font-family:arial;
+    color:crimson;
+}
+.highScoreCount{
+    font-size:50px;
+    font-family:'digital';
+    color:gold;
+}
+@font-face{
+    font-family:'digital';
+    src: url('fonts/digital.ttf');
+}
