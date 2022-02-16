@@ -15,7 +15,7 @@ background-color:slategrey;
     background-color: rgba(0, 0, 0, 0);
     border:none;
     font-size:50px;
-    font-family:"digital";
+	font-family: 'Roboto', sans-serif;
     color:#00ff00;
 }
 #gameBox{
@@ -43,12 +43,12 @@ h1{
 .highScore{
     margin-top:60px;
     font-size:30px;
-    font-family:arial;
+	font-family: 'Roboto', sans-serif;
     color:crimson;
 }
 .highScoreCount{
     font-size:50px;
-    font-family:'digital';
+	font-family: 'Roboto', sans-serif;
     color:gold;
 }
 @font-face{
